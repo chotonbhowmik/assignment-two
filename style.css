@@ -236,6 +236,36 @@ line-height: 26px;
   margin-top: 15px;
 
 }
+/* video-section css start */
+.video-section{
+  display: flex;
+  margin-top: 50px;
+}
+.video-image{
+
+  width:560px;
+   height:815px;
+}
+.video-heading{
+  color: #131318;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px;
+
+}
+.video-paragraph{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+
+}
+.video ul li{
+  color: #131318;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+}
 @media (max-width: 600px) {
 /* responsive header design start */ 
   .desktop-menu{
@@ -334,6 +364,28 @@ font-size: 14px;
 .bottom-part{
   width: 100%;
   
+
+}
+.video-section{
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+video{
+  width: 100% !important;
+}
+.video-heading{
+  color: #131318;
+font-size: 20px;
+font-weight: 800;
+line-height: 60px;
+
+}
+.video-paragraph{
+  color: #5A5A5D;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px; 
 
 }
 }
