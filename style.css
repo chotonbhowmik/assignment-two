@@ -10,3 +10,69 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 	padding: 0;
 }
+.header{
+	display: flex;
+	padding: 20px 130px;
+	justify-content:space-between;
+}
+.logo{
+	display: flex;
+}
+.logo h6{
+	color: #131318;
+	font-size: 36px;
+	font-weight: 800;
+	margin-left: 10px;
+}
+.logo span{
+	color: #FF5400;
+	font-size: 36px;
+	font-weight: 800;
+}
+nav {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav a:hover {
+    color: #FF5400;
+}
+.mobile-menu{
+	display: none;
+}
+@media (max-width: 600px) {
+
+  .desktop-menu{
+  	display: none;
+  }
+  .mobile-menu{
+	display: block;
+}
+.header{
+	padding: 26px;
+  
+}
+.logo h6{
+	font-size: 21px;
+	margin-top: 5px;
+}
+.logo span{
+	font-size: 21px;
+}
+}
