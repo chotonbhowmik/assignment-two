@@ -10,6 +10,13 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 	padding: 0;
 }
+.primary-button{
+  border-radius: 8px;
+background: #FF5400;
+padding: 14px 25px;
+color: #fff;
+border: none;
+}
 /* header design start */
 .header{
 	display: flex;
@@ -88,6 +95,9 @@ padding-top: 20px;
 }
 .input-group {
     display: flex;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding: 15px;
   }
 
   .input-group input,
@@ -111,6 +121,33 @@ font-size: 16px;
 font-weight: 400;
   }
 /* banner design end */
+/* popular tour css start */
+
+.popular-tour{
+  display: flex;
+  padding-top: 50px;
+}
+.tour-text h2{
+  color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.tour-text p{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+padding: 20px 0;
+  
+}
+
+.tour-text ul li{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+padding-bottom:15px; 
+  
+}
+/* popular tour css end */
 @media (max-width: 600px) {
 /* responsive header design start */ 
   .desktop-menu{
@@ -160,6 +197,33 @@ padding-bottom: 30px;
       width: 100%;
       margin-right: 0;
       margin-top: 10px;
+}
+.popular-tour{
+    flex-direction: column;
+}
+.tour-text h2{
+  color: #131318;
+font-size: 20px;
+font-weight: 800;
+}
+.tour-text p{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 14px;
+font-weight: 400;
+padding: 20px 0;
+  
+}
+
+.tour-text ul li{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 14px;
+font-weight: 400;
+padding-bottom:20px; 
+  
+}
+.tour-image img{
+  width: 100%;
+  padding-top: 20px;
 }
 
 }
