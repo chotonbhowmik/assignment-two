@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 	padding: 0;
 }
+/* header design start */
 .header{
 	display: flex;
 	padding: 20px 130px;
@@ -56,8 +57,62 @@ nav a:hover {
 .mobile-menu{
 	display: none;
 }
-@media (max-width: 600px) {
+/* header design end */
+main{
+	padding: 20px 130px;
+}
+/* banner design start */
+.banner-section{
+	background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/banner.png");
+	position: relative;
+    padding: 150px 300px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.banner-section h2{
+	color: #FFF;
+	font-size: 64px;
+	font-weight: 800;
 
+}
+.banner-section p{
+	color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+padding-top: 20px;
+}
+.input-group {
+    display: flex;
+  }
+
+  .input-group input,
+  .input-group select,
+  .input-group button {
+    height: 40px;
+    margin-right: 10px; 
+    border-radius: 10px;
+    width: 150px;
+    border: none;  
+}
+  .input-group input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+  }
+
+  .input-group select option {
+   color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+  }
+/* banner design end */
+@media (max-width: 600px) {
+/* responsive header design start */ 
   .desktop-menu{
   	display: none;
   }
@@ -68,6 +123,9 @@ nav a:hover {
 	padding: 26px;
   
 }
+main{
+	padding: 26px;
+}
 .logo h6{
 	font-size: 21px;
 	margin-top: 5px;
@@ -75,4 +133,33 @@ nav a:hover {
 .logo span{
 	font-size: 21px;
 }
+/* responsive header design end */
+/* banner responsive css start */
+.banner-section{
+	padding: 26px;
+
+}
+.banner-section h2{
+font-size: 22px;
+text-align: center;
+padding-top: 30px;
+
+}
+.banner-section p{
+font-size: 14px;
+padding-bottom: 30px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+
+  }
+ .input-group input,
+    .input-group select,
+    .input-group button {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 10px;
+}
+
 }
