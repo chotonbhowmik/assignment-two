@@ -17,6 +17,24 @@ padding: 14px 25px;
 color: #fff;
 border: none;
 }
+.common-heading{
+color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+padding-top: 50px;
+}
+
+  
+
+.common-paragraph{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+padding: 20px 0;
+}
 /* header design start */
 .header{
 	display: flex;
@@ -148,6 +166,76 @@ padding-bottom:15px;
   
 }
 /* popular tour css end */
+
+/* destination css start */
+
+ .image-grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .image-container {
+    position: relative;
+    margin-bottom: 16px;
+  }
+
+  .image-container img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .image-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 4px;
+  }
+
+/* destination css end */
+
+/* choose us css start */
+.top-part{
+  display: flex;
+  gap: 20px;
+}
+.left-choose-part{
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 30px;
+}
+.right-choose-part{
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 30px;
+
+}
+.choose-common-heading{
+  color: #131318;
+  padding: 15px 0;
+font-size: 24px;
+font-weight: 800;
+}
+.choose-common-paragraph{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+.bottom-part{
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+
+}
 @media (max-width: 600px) {
 /* responsive header design start */ 
   .desktop-menu{
@@ -225,5 +313,27 @@ padding-bottom:20px;
   width: 100%;
   padding-top: 20px;
 }
+/* destination responsive css start */
+.image-grid-view {
+      flex-direction: column;
+      
+    }
+    .image-container{
+      margin-bottom: 5px;
+    }
+    .common-heading{
+font-size: 20px;
 
+}
+.common-paragraph{
+font-size: 14px;
+}
+.top-part{
+  flex-direction: column;
+}
+.bottom-part{
+  width: 100%;
+  
+
+}
 }
