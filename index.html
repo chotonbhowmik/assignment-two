@@ -21,7 +21,8 @@
     <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#">Services</a></li>  
+        <li><a href="#">Blog</a></li>    
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
@@ -49,7 +50,7 @@
         <option value="2">Option 2</option>
         <!-- Add more options as needed -->
       </select>
-      <button type="submit">
+      <button type="submit" class="submit-button">
         <i class="fas fa-search"></i> Find Now
       </button>
     </div>
@@ -107,7 +108,7 @@
 
 <div class="image-grid-view">
   <div class="image-container">
-    <img src="Images/bangladesh.png" alt="Bangladesh">
+    <img src="Images/bangladesh.png" alt="Bangladesh" class="bangladesh">
     <div class="image-name">Bangladesh</div>
   </div>
 
@@ -127,23 +128,23 @@
     <img src="Images/hotel 1.png">
     <h2 class="choose-common-heading">Handpicked Hotels</h2>
     <P class="choose-common-paragraph">
-      Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
+      Handpicked Hotels offers an exquisite selection of accommodations tailored for the discerning traveler. Each property is meticulously chosen for its unique charm, exceptional service, and distinctive character, ensuring a memorable and personalized experience for every guest. 
     </P>
   </div>
   <div class="right-choose-part">
     <img src="Images/map 1.png">
-    <h2 class="choose-common-heading">Handpicked Hotels</h2>
+    <h2 class="choose-common-heading">World Class Service</h2>
     <P class="choose-common-paragraph">
-      Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
+      At Handpicked Hotels, our commitment to world-class service is the hallmark of every guest experience. From personalized attention to anticipatory gestures, we take pride in exceeding expectations, ensuring a stay defined by unparalleled hospitality. 
     </P>
   </div>
   </div>
    <div class="bottom-part">
     <div class="left-choose-part">
     <img src="Images/price-tag 1.png">
-    <h2 class="choose-common-heading">Handpicked Hotels</h2>
+    <h2 class="choose-common-heading">Best Price Guarantee</h2>
     <P class="choose-common-paragraph">
-      Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
+      Experience peace of mind with Handpicked Hotels' Best Price Guarantee, assuring you the most competitive rates for a stay that seamlessly blends affordability with luxury. Book confidently, knowing you'll find the best value for your accommodation with us. 
     </P>
   </div>
   
@@ -195,11 +196,9 @@
     <button type="submit" class="primary-button">See More</button>
   </div>
   <div class="video-image">
-    <video width="640"  controls>
-    <source src="https://youtu.be/rn0nkEZdoRg?si=XGbmm1XANEG_0zoL" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-   
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/H9C6KAZmlIY?si=0GFfD_ewMJ6H06zF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
   </div>
 </section>
 
@@ -210,10 +209,10 @@
     <hr>
     <form action="#" method="post">
             <div class="form-group">
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name"required>
             </div>
             <div class="form-group">
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
             </div>
             <button type="submit" class="subscribe">Subscribe</button>
         </form>

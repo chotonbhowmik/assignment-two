@@ -16,6 +16,7 @@ background: #FF5400;
 padding: 14px 25px;
 color: #fff;
 border: none;
+margin-top: 10px;
 }
 .common-heading{
 color: #131318;
@@ -117,7 +118,13 @@ padding-top: 20px;
 background: rgba(255, 255, 255, 0.30);
 padding: 15px;
   }
-
+.submit-button{
+  border-radius: 8px;
+background: #FF5400;
+color: #fff;
+font-size: 16px;
+font-weight: 500;
+}
   .input-group input,
   .input-group select,
   .input-group button {
@@ -291,42 +298,37 @@ background: #FF5400;
       cursor: pointer;
     }
 /* video-section css start */
-.video-section{
+.video-section {
   display: flex;
   margin-top: 50px;
 }
-.video-text{
+
+.video-text {
   width: 50%;
 }
-.video-image{
-
-  width:560px;
-}
-.video-heading{
+.video-text ul li{
+  font-weight: 700;
   color: #131318;
-font-size: 40px;
-font-weight: 800;
-line-height: 60px;
-
 }
-.video-paragraph{
-  color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
 
+.video-image {
+  width: 50%;
 }
-.video-image video {
-  max-width: 100%;
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio (height: width) */
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
-.video ul li{
-  color: #131318;
-font-size: 16px;
-font-weight: 700;
-line-height: 26px;
-}
+
 
 /* newsletter css start */
 .newsletter-section{
@@ -389,6 +391,7 @@ hr {
     background: rgba(19, 19, 24, 0.10);
     margin-bottom: 20px;
 }
+
 
 .subscribe {
     width: 100%;
@@ -493,7 +496,7 @@ padding-bottom: 30px;
       width: 100%;
       margin-right: 0;
       margin-top: 10px;
-       color: rgba(19, 19, 24, 0.50);
+       /* color: rgba(19, 19, 24, 0.50); */
 }
 .popular-tour{
     flex-direction: column;
@@ -545,15 +548,19 @@ font-size: 14px;
   
 
 }
+.bangladesh{
+  margin-top: 100px;
+}
 .package {
         width: 100%;
       }
-.video-section{
+.video-section {
     flex-direction: column;
     margin-top: 20px;
-}
-.video-image video {
-    max-width: 50%; 
+  }
+
+  .video-image {
+    width: 100%;
     margin-top: 20px;
   }
   .video-text{
@@ -566,7 +573,7 @@ font-size: 14px;
   color: #131318;
 font-size: 20px;
 font-weight: 800;
-line-height: 60px;
+line-height: 20px;
 
 }
 .video-paragraph{
