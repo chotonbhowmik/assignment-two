@@ -236,6 +236,60 @@ line-height: 26px;
   margin-top: 15px;
 
 }
+
+/* package css start */
+.package-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      /* padding: 20px; */
+    }
+
+    .package {
+      max-width: 300px;
+      margin: 5px;
+      border-radius: 16px;
+border: 1px solid #FF5400;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .package img {
+      max-width: 100%;
+      height: auto;
+
+      border-radius: 16px;
+    }
+
+    .package h2 {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .package p {
+      margin-top: 10px;
+      font-size: 16px;
+      padding: 0 5px;
+    }
+
+    .package .price {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #FF5400;
+    }
+
+    .package .see-now-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      font-size: 1em;
+      border-radius: 8px;
+background: #FF5400;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
 /* video-section css start */
 .video-section{
   display: flex;
@@ -244,7 +298,6 @@ line-height: 26px;
 .video-image{
 
   width:560px;
-   height:815px;
 }
 .video-heading{
   color: #131318;
@@ -265,6 +318,120 @@ line-height: 26px;
 font-size: 16px;
 font-weight: 700;
 line-height: 26px;
+}
+
+/* newsletter css start */
+.newsletter-section{
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+.newsletter-left{
+  padding: 15px;
+  border-radius: 16px;
+border: 1px solid #FF5400;
+margin-right: 30px;
+max-width: 600px;
+ margin: 0 auto;
+}
+.newsletter-left h2{
+  color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.newsletter-left p{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+padding: 20px 0;
+
+}
+.newsletter-right {
+    position: relative;
+}
+
+.top-image {
+    position: absolute;
+    top: 46%;
+    left: 46%;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05); 
+}
+hr {
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer css start */
+.footer {
+    padding: 50px 130px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-logo h6{
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.footer-logo span{
+  color: #FF5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.footer p{
+  justify-content: center;
+  padding: 20px 0;
+  color: #131318;
+font-size: 16px;
+font-weight: 300;
+text-align: center
+}
+.social-icon i{
+  margin-right: 20px;
 }
 @media (max-width: 600px) {
 /* responsive header design start */ 
@@ -315,6 +482,7 @@ padding-bottom: 30px;
       width: 100%;
       margin-right: 0;
       margin-top: 10px;
+       color: rgba(19, 19, 24, 0.50);
 }
 .popular-tour{
     flex-direction: column;
@@ -366,6 +534,9 @@ font-size: 14px;
   
 
 }
+.package {
+        width: 100%;
+      }
 .video-section{
     flex-direction: column;
     margin-top: 20px;
@@ -386,6 +557,21 @@ line-height: 60px;
 font-size: 14px;
 font-weight: 400;
 line-height: 26px; 
+
+}
+.newsletter-section{
+  flex-direction: column;
+}
+.bottom-image{
+  width: 100%;
+  margin-top: 20px;
+
+}
+.top-image{
+  width: 50%;
+}
+.footer{
+  padding: 26px;
 
 }
 }
