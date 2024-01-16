@@ -259,6 +259,7 @@ line-height: 26px;
 border: 1px solid #FF5400;
       text-align: center;
       padding-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(255, 84, 0, 0.8);
     }
 
     .package img {
@@ -277,12 +278,14 @@ border: 1px solid #FF5400;
       margin-top: 10px;
       font-size: 16px;
       padding: 0 5px;
+      text-align: justify;
     }
 
     .package .price {
       margin-top: 10px;
       font-size: 20px;
       color: #FF5400;
+      text-align: center;
     }
 
     .package .see-now-btn {
@@ -401,7 +404,7 @@ hr {
     background: #FF5400;
     color: #FFF;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 400;
     border: none;
     cursor: pointer;
 }
@@ -511,6 +514,7 @@ font-weight: 800;
 font-size: 14px;
 font-weight: 400;
 padding: 20px 0;
+text-align: justify;
   
 }
 
